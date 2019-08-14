@@ -29,17 +29,7 @@ public class NGTestListener implements ITestListener {
         System.out.println("On test Sucess");
     }
 
-    @Override
-    public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("On test failure");
-
-        try{
-            extentReportUtil.ExtentReportScreenshot();
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-
+    
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
         System.out.println("On test skipped");
