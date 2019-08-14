@@ -35,7 +35,7 @@ public class ExtentReportUtil extends BaseUtil {
     }
 
     public void ExtentReportScreenshot()
-        System.out.println("Nada")
+        System.out.println("Nada");
     }
 
 
